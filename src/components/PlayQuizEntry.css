@@ -1,0 +1,99 @@
+.play-quiz-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #FFF5E6;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .play-quiz-title {
+    color: #FFB300;
+    font-family: 'Comic Sans MS', cursive;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .quiz-code-input {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 2px solid #FFB300;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .quiz-code-input:focus {
+    outline: none;
+    border-color: #FF6B6B;
+  }
+  
+  .message-display {
+    color: #555;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .btn:hover {
+    transform: translateY(-2px);
+  }
+  
+  .btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  .btn-primary {
+    background-color: #FFB300;
+    border: none;
+    color: white;
+  }
+  
+  .btn-primary:hover:not(:disabled) {
+    background-color: #FF6B6B;
+  }
+  
+  .btn-danger {
+    background-color: #FF6B6B;
+    border: none;
+    color: white;
+  }
+  
+  .btn-danger:hover {
+    background-color: #ff4f4f;
+  }
+  
+  .score-section {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .score-display {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #4CAF50;
+  }
+  
+  .game-list {
+    margin-top: 2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .play-quiz-container {
+      padding: 1rem;
+    }
+  
+    .btn {
+      width: 100%;
+      margin-bottom: 0.5rem;
+    }
+  }

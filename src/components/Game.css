@@ -1,0 +1,58 @@
+.game-card {
+    background-color: #FFF5E6;
+    border: 2px solid #FFB300;
+    border-radius: 15px;
+    margin-bottom: 1.5rem;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .game-card:hover {
+    box-shadow: 0 4px 8px rgba(255, 179, 0, 0.2);
+  }
+  
+  .game-card .card-body {
+    padding: 1.5rem;
+  }
+  
+  .game-card .card-title {
+    color: #FF6B6B;
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .game-card .form-check {
+    margin-bottom: 0.5rem;
+  }
+  
+  .game-card .form-check-input {
+    cursor: pointer;
+  }
+  
+  .game-card .form-check-label {
+    cursor: pointer;
+    padding-left: 0.5rem;
+    color: #555;
+  }
+  
+  .game-card .form-check-input:checked + .form-check-label {
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  
+  .game-card .question-info {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 1rem;
+  }
+  
+  .game-card .question-info .info-item {
+    margin-bottom: 0.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .game-card .row > .col {
+      flex-basis: 100%;
+      margin-bottom: 0.5rem;
+    }
+  }

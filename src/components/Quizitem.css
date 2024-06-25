@@ -1,0 +1,84 @@
+.quiz-card {
+    background-color: #FFF5E6;
+    border: 2px solid #FFB300;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 1.5rem;
+  }
+  
+  .quiz-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(255, 179, 0, 0.2);
+  }
+  
+  .quiz-card .card-body {
+    padding: 1.5rem;
+  }
+  
+  .quiz-card .card-title {
+    color: #FF6B6B;
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .quiz-card ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .quiz-card li {
+    background-color: #FFE0B2;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+  .quiz-card .answer,
+  .quiz-card .mcq-type,
+  .quiz-card .title {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .quiz-card .answer {
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  
+  .quiz-card .mcq-type,
+  .quiz-card .title {
+    color: #555;
+  }
+  
+  .quiz-card .icon-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+  }
+  
+  .quiz-card .icon {
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .quiz-card .icon-delete {
+    color: #FF6B6B;
+  }
+  
+  .quiz-card .icon-edit {
+    color: #FFB300;
+  }
+  
+  .quiz-card .icon:hover {
+    opacity: 0.7;
+  }
+  
+  @media (max-width: 768px) {
+    .quiz-card {
+      margin-bottom: 1rem;
+    }
+  }

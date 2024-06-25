@@ -1,0 +1,64 @@
+.navbar {
+    background-color: #FFF5E6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 1.5rem;
+    color: #FFB300 !important;
+  }
+  
+  .brand-text {
+    background: linear-gradient(45deg, #FFB300, #FF6B6B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .nav-link {
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    color: #555 !important;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover, .nav-link.active {
+    color: #FF6B6B !important;
+  }
+  
+  .btn {
+    border-radius: 20px;
+    padding: 0.375rem 1.5rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: #FFB300;
+    border-color: #FFB300;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #FF6B6B;
+    border-color: #FF6B6B;
+  }
+  
+  .btn-outline-primary {
+    color: #FFB300;
+    border-color: #FFB300;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #FFB300;
+    color: #fff;
+  }
+  
+  .btn-outline-danger {
+    color: #FF6B6B;
+    border-color: #FF6B6B;
+  }
+  
+  .btn-outline-danger:hover {
+    background-color: #FF6B6B;
+    color: #fff;
+  }

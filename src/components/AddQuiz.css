@@ -1,0 +1,95 @@
+.add-quiz-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #FFF5E6;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-quiz-title {
+    color: #FFB300;
+    font-family: 'Comic Sans MS', cursive;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .publish-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .btn-publish {
+    background-color: #FFB300;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-publish:hover {
+    background-color: #FF6B6B;
+  }
+  
+  .code-input {
+    flex-grow: 1;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    border: 2px solid #FFB300;
+    border-radius: 20px;
+    background-color: white;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 0.5rem;
+    border: 2px solid #FFB300;
+    border-radius: 10px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-control:focus {
+    outline: none;
+    border-color: #FF6B6B;
+  }
+  
+  .options-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  .btn-submit {
+    background-color: #FF6B6B;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .btn-submit:hover:not(:disabled) {
+    background-color: #FFB300;
+  }
+  
+  .btn-submit:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
