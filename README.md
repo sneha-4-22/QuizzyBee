@@ -35,8 +35,6 @@ Fork, code, and send us a pull request. Let's make learning adorable together!
 
 QuizzyBee is released under the "Make People Smile" license. Use it, share it, and spread the joy! 🌞
 
----
-
 Remember: Stay curious, keep learning, and always be as cute as QuizWhiz! 🌈🦄
-```
+
 
