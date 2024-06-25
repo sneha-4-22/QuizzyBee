@@ -1,7 +1,7 @@
 
 
 
-# 🎉 QuizzyBee: The Adorable Quiz Adventure! 🦉
+#  QuizzyBee: The Adorable Quiz Adventure! 🦉
 
 Welcome to QuizzyBee, the quiz game this side of the internet! 🌈✨
 
