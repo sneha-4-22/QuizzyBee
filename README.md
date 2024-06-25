@@ -40,4 +40,3 @@ QuizzyBee is released under the "Make People Smile" license. Use it, share it, a
 Remember: Stay curious, keep learning, and always be as cute as QuizWhiz! 🌈🦄
 ```
 
-This README is designed to be fun, engaging, and capture the spirit of a cute and friendly quiz app. It includes emojis and playful language to make it more appealing and memorable. Feel free to adjust any parts to better fit your specific app features or style!
