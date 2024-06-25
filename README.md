@@ -8,6 +8,11 @@ Welcome to QuizzyBee, the quiz game this side of the internet! 🌈✨
 ## 🌟 What's QuizzyBee?
 
 QuizzyBee is your new best friend in the world of learning and fun! It's a super adorable quiz app that'll make your brain cells do a happy dance. Whether you're a curious cat 🐱 or a wise owl 🦉, QuizzyBee has something for everyone!
+## Preview
+
+
+https://github.com/sneha-4-22/QuizzyBee/assets/112711068/66aa1e4f-81b1-45bd-8fb8-89b73f5d7996
+
 
 ## 🚀 Features That'll Make You Go "Aww!"
 
