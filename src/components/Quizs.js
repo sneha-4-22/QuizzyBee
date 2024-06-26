@@ -51,7 +51,7 @@ const Quizs = (props) => {
 }
   
   return (
-    <>
+    <div className="quizs-container">
       <AddQuiz showAlert={props.showAlert}/>
       {/* <!-- Button trigger modal --> */}
       <button
@@ -186,19 +186,22 @@ const Quizs = (props) => {
           </div>
         </div>
       </div>
-      <div className="row my-3 gy-2">
-        <h2>Your quizs</h2>
-        <div className="container">
-        {quizs.length===0 && 'No notes to display'}
-        </div>
-        {quizs.map((quiz) => {
-          return (
-            <Quizitem quiz={quiz} key={quiz._id} updateQuiz={updateQuiz} showAlert={props.showAlert}/>
-          );
-        })}
-      </div>
+      <div className="quizs-container">
+  <h2 className="your-quizs-title">Your Quizs</h2>
+  <div className="quiz-list">
+    {quizs.length === 0 && <p className="no-quizs-message">No quizs to display</p>}
+    {quizs.map((quiz) => (
+      <Quizitem
+        quiz={quiz}
+        key={quiz._id}
+        updateQuiz={updateQuiz}
+        showAlert={props.showAlert}
+      />
+    ))}
+  </div>
+</div>
       
-    </>
+</div>
   );
 };
 

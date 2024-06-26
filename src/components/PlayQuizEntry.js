@@ -60,36 +60,38 @@ const PlayQuizEntry = () => {
 
 
   return (
-    <div>
+    <div className="play-quiz-container">
+      <h2 className="play-quiz-title">Play Quiz</h2>
       <div>
-      <input
-        type="text"
-        id="message"
-        name="message"
-        onChange={handleChange}
-        value={message}
-      />
+        <input
+          type="text"
+          id="message"
+          name="message"
+          onChange={handleChange}
+          value={message}
+          className="quiz-code-input"
+          placeholder="Enter quiz code"
+        />
+        <h2 className="message-display">Quiz Code: {message}</h2>
+        <button className='btn btn-primary' id="btn2" onClick={fetchallquiz}>Play</button>
+      </div>
 
-      <h2>Message: {message}</h2>
+      <div className="game-list">
+        {quizs.map((quiz) => (
+          <Game quiz={quiz} key={quiz._id} />
+        ))}
+      </div>
 
-      {/* <h2>Updated: {updated}</h2> */}
+      <div className="score-section">
+        <button className={seq === '1' ? 'btn btn-primary' : 'd-none'} id="btn" onClick={myFunction}>
+          Generate Score
+        </button>
+        <div className={seq === '1' ? 'score-display' : 'd-none'}>
+          Your Score is: {val}
+        </div>
+      </div>
 
-      <button className='btn btn-primary' id="btn2" onClick={fetchallquiz}>Play</button>
-    </div>
-
-    {quizs.map((quiz) => {
-          return (
-            <Game quiz={quiz} key={quiz._id} />
-            
-          );
-    })}
-  
-    <button className={seq=='1' ? 'btn btn-primary mx-2' : 'd-none mx-2' } id="btn" onClick={myFunction}>  GENERATE SCORE </button>
-    
-    <div className={seq=='1' ? 'd-flex' : 'd-none' }> Your Score is : {val} </div>
-  
-    {/* <button >GENERATE SCORE</button>  */}
-    <div>
+      <div>
     <a href="http://localhost:8000/playquiz" class="btn btn-danger my-2" tabIndex="-1" role="button">RESET</a>
     </div>
     </div>
