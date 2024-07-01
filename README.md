@@ -3,7 +3,7 @@
 
 #  QuizzyBee: The Adorable Quiz Adventure! 🦉
 
-Welcome to QuizzyBee, the quiz game this side of the internet! 🌈✨
+Welcome to QuizzyBee, the quiz game this side of the internet!This is my Ineuron Internship project 🌈✨
 
 ## 🌟 What's QuizzyBee?
 
